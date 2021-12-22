@@ -11,6 +11,9 @@ const measureRoute: Routes = [
   {
     path: '',
     component: MeasureComponent,
+    data: {
+      defaultSort: 'id,asc',
+    },
     canActivate: [UserRouteAccessService],
   },
   {

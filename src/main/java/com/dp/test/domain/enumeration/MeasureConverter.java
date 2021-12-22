@@ -8,6 +8,7 @@ import javax.persistence.Converter;
 @Converter(autoApply = true)
 public class MeasureConverter implements AttributeConverter<MeasureType, String> {
 
+    //BISOGNA INSERIRE DEI CASI GENERICI. usando tipo A05 <=> Height, B05<=>width etc, in caso di successive modifiche si può ripristinare ordinalità.
     @Override
     public String convertToDatabaseColumn(MeasureType attribute) {
         switch (attribute) {
