@@ -1,0 +1,29 @@
+
+entity Book{
+	name String,
+    	desc String
+}
+
+entity Author{
+	name String,
+    desc String,
+    birth LocalDate
+}
+
+entity Measure{
+	type MeasureType
+    value Float
+}
+
+enum MeasureType{
+	H, W, L, D, OTHER
+}
+
+relationship OneToMany{
+	Author{books} to Book{Author(name)}
+}
+
+relationship ManyToOne{
+	Measure{book} to Book{dim}
+}
+

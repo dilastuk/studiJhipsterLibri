@@ -108,6 +108,7 @@
   },
   "defaultProject": "studiomio",
   "cli": {
+    "analytics": false,
     "packageManager": "npm"
   }
 }

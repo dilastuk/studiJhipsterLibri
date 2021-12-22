@@ -1,0 +1,32 @@
+{
+  "name": "Measure",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "MeasureType",
+      "fieldValues": "H,W,L,D,OTHER"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "dim",
+      "relationshipName": "book"
+    }
+  ],
+  "entityTableName": "measure",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211222112153"
+}
