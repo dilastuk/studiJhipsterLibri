@@ -22,7 +22,7 @@ describe('Measure Service', () => {
 
     elemDefault = {
       id: 0,
-      type: MeasureType.H,
+      type: MeasureType.HEIGHT,
       value: 0,
     };
   });

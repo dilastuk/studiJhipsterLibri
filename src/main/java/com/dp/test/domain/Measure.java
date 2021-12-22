@@ -1,5 +1,6 @@
 package com.dp.test.domain;
 
+import com.dp.test.domain.enumeration.MeasureConverter;
 import com.dp.test.domain.enumeration.MeasureType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;
@@ -19,8 +20,9 @@ public class Measure implements Serializable {
     @Column(name = "id")
     private Long id;
 
-    @Enumerated(EnumType.STRING)
+    //@Enumerated(EnumType.STRING)
     @Column(name = "type")
+    @Convert(converter = MeasureConverter.class)
     private MeasureType type;
 
     @Column(name = "value")

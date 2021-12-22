@@ -4,7 +4,7 @@
     {
       "fieldName": "type",
       "fieldType": "MeasureType",
-      "fieldValues": "H,W,L,D,OTHER"
+      "fieldValues": "HEIGHT,WIDTH,LENGTH,DEPTH,OTHER"
     },
     {
       "fieldName": "value",

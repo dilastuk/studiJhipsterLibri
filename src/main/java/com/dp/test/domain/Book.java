@@ -30,7 +30,7 @@ public class Book implements Serializable {
     @JsonIgnoreProperties(value = { "books" }, allowSetters = true)
     private Author author;
 
-    @OneToMany(mappedBy = "book", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "book")
     @JsonIgnoreProperties(value = { "book" }, allowSetters = true)
     private Set<Measure> dims = new HashSet<>();
 

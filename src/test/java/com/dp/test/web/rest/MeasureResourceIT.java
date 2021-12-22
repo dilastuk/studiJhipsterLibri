@@ -30,8 +30,8 @@ import org.springframework.transaction.annotation.Transactional;
 @WithMockUser
 class MeasureResourceIT {
 
-    private static final MeasureType DEFAULT_TYPE = MeasureType.H;
-    private static final MeasureType UPDATED_TYPE = MeasureType.W;
+    private static final MeasureType DEFAULT_TYPE = MeasureType.HEIGHT;
+    private static final MeasureType UPDATED_TYPE = MeasureType.WIDTH;
 
     private static final Float DEFAULT_VALUE = 1F;
     private static final Float UPDATED_VALUE = 2F;

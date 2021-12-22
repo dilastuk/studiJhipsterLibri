@@ -1,11 +1,11 @@
 export enum MeasureType {
-  H = 'H',
+  HEIGHT = 'HEIGHT',
 
-  W = 'W',
+  WIDTH = 'WIDTH',
 
-  L = 'L',
+  LENGTH = 'LENGTH',
 
-  D = 'D',
+  DEPTH = 'DEPTH',
 
   OTHER = 'OTHER',
 }
