@@ -1,6 +1,8 @@
 # studiomio
 
-This application was generated using JHipster 7.4.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.4.1](https://www.jhipster.tech/documentation-archive/v7.4.1).
+E' un progetto di test privato per studio jhipster.
+Entità:
+![alt text](https://github.com/dilastuk/studiJhipsterLibri/blob/main/ENTITIES_schma.png?raw=true)
 
 ## Project Structure
 
